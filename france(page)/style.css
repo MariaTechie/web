@@ -1,0 +1,55 @@
+/* General Styling */
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #f5f0e1; /* Soft beige */
+    color: #4b2e2e; /* Dark brown */
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+     /* Centers text globally */
+}
+
+/* Heading Styles */
+h1, h2, h3 {
+    font-weight: normal;
+    color: #8b5e34; /* Warm brown */
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 3em;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #d3b08d; /* Light brown border */
+    padding-bottom: 0.5em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+    letter-spacing: 1.5px;
+    margin-top: 1em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    color: #9c6f50; /* Softer brown */
+    line-height: 1.8;
+    margin: 20px 0;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Image Styling */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    background-color: #f0e4d7; /* Light beige background */
+    border-radius: 8px;
+    border: 8px solid #8b5e34; /* Thick warm brown border */
+    box-shadow: 0px 4px 10px rgba(75, 46, 46, 0.1); /* Subtle brown shadow */
+    margin: 20px auto;
+}
